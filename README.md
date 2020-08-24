@@ -24,18 +24,17 @@ When you execute favs -? you will get the following:
        '      SCRIPT:   cheatsheets.sh - load specific cheatsheets based
                         on language'
 
-
-## fav file snippit  
+## A portion of the .fav file  
     ♥︎ ♥︎ ♥︎  FUNCTION: 'cdf()'          - a cd macro funciton to cd to location of frontmost Finder window
-    
+
     ♥︎ ♥︎ ♥︎  FUNCTION: 'g()'            - list of git commands; fast, shortened git commands & help (g -?)
-    
+
     ♥︎ ♥︎ ♥︎    SCRIPT: 'chknet'         - provides a suite of network tests (custom to this machine) ALIAS: (chk -?)
-    
+
     ♥︎ ♥︎ ♥︎  FUNCTION: 'dev()'          - allows travels to local & remote dev projects using dev folder structure (dev -?)
-    
+
     ♥︎ ♥︎ ♥︎  FUNCTION: 'which()'        - Overloading of which. Reveals aliases & functions then uses '/usr/bin/which' (which ?)
-    
+
     ♥︎ ♥︎ ♥︎  FUNCTION: 'whereis()'      - Overloading of whereis. Locate programs (using native 'whereis') or a file (i.e. script, etc).
 
 
