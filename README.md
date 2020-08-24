@@ -4,6 +4,9 @@ favs is a Bash function - List/rate favorite alias, functions & scripts
 ## Use
 Use this and customize it with your changes. I use this as a menu to remind my old man brain what functions, scripts and aliases I have created since I forget stuff often.
 
+## OS
+Used / created for macOS bash but can be modified for other OS.
+
 ## Help menu
 When you execute favs -? you will get the following:
 ![Help menu](https://github.com/al-jimenez/favs/blob/master/favs.png)
