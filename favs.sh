@@ -11,7 +11,7 @@ favs() {
   else local hearts="      "; fi;
   #[[ -z ${1} ]] && { shift; ${FUNCNAME[0]} ?; return; }
   [[ -z ${1} ]] && { cat ~/.favs; return; }
-  [[ "${1}" == "-"  ]] && { shift; echo "${hearts}   NONE: $* -" $(LC_ALL=C date +"%m/%d/%Y") >> ~/.favs; return;    }
+  [[ "${1}" == "-"  ]] && { shift; echo "${hearts}   NONE: ${1} - " $(LC_ALL=C date +"%m/%d/%Y") >> ~/.favs; return;    }
   [[ "${1}" == "-a" ]] || [[ "${1}" == "alias"    ]] && { shift; echo "${hearts}    ALIAS:${1} " >> ~/.favs; return; }
   [[ "${1}" == "-f" ]] || [[ "${1}" == "function" ]] && { shift; echo "${hearts} FUNCTION:${1} " >> ~/.favs; return; }
   [[ "${1}" == "-s" ]] || [[ "${1}" == "script"   ]] && { shift; echo "${hearts}   SCRIPT:${1} " >> ~/.favs; return; }
