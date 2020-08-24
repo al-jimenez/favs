@@ -11,7 +11,7 @@
   ♥︎ ♥︎  FUNCTION: '.notes()'       - View/edit project notes in current folder (file: .notes) (.notes -?)
   ♥︎ ♥︎  FUNCTION: 'ii()'           - System information function for macOS / bash / macbook pro hardware.
   ♥︎ ♥︎  FUNCTION: 'favs()'         - list/rate favorite alias, functions & scripts (this list) (.favs -?)
-  ♥︎ ♥︎    SCRIPT: 'notes-sync'     - Sync local 'On My Mac' Notes on aj-macbook to d-macbook
+  ♥︎ ♥︎    SCRIPT: 'notes-sync'     - Sync local 'On My Mac' Notes on my macbook to my other mac
   ♥︎ ♥︎  FUNCTION: 'dts()'          - provides selection of date/time stamps; usable in srcipts. (dts -?)
   ♥︎ ♥︎  FUNCTION: 'term_color()'   - load color code chart or individual colors (term_color -?)
   ♥︎ ♥︎  FUNCTION: 'jmounts()       - mount "Documents", "Projects" and "Archive" shares from j-server shares.

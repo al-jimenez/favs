@@ -1,14 +1,13 @@
 # favs()
-favs is a Bash function - g is a functional alias for git (i.e.: 'g status' = 'git status') and a processor
-with option switches for shortcuts of my most commonly used git commands.
+favs is a Bash function - List/rate favorite alias, functions & scripts
 
 ## Use
-Use this and customize it with your most used git commands.   
-I use this as a menu to remind my old man brain what I need to do next an what options I have to execute.
+Use this and customize it with your changes.   
+I use this as a menu to remind my old man brain what I functions, scripts and aliases I have created since I forget stuff often.
 
 ## Help menu
-When you execute g() without parameters you will get the following:
-![Help menu](https://github.com/al-jimenez/g/blob/master/g.png?raw=true)
+When you execute favs -? without parameters you will get the following:
+![Help menu]()
 
 ## Special Options
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# favs() - add a fav item to ~/.favs with description and rating per item
-# 📌 Usage: favs() | favs() <command options> <description> <rating=1,2,3> where 3 is highest.
+# 📌 favs() - add a fav item to ~/.favs with description and rating per item
+# Usage: favs() | favs() <command options> <description> <rating=1,2,3> where 3 is highest.
 # --------------------------------------------------------------------------------------------
 favs() {
   if [[ ! -z ${3} ]]; then
@@ -24,7 +24,7 @@ favs() {
     ${FUNCNAME[0]} <command options> <description> <rating=1,2,3> where 3 is highest.
 
     Options:
-      -               Add ${FUNCNAME[0]} without category
+     -                <no option> Show all favs
      -a | alias       Add ${FLNCNAME[0]} aliaslist/rate favorite alias, functions & scripts
      -f | function    Add ${FUNCNAME[0]} function
      -s | script      Add ${FUNCNAME[0]} script
