@@ -1,5 +1,5 @@
-# g()
-g is a Bash function - g is a functional alias for git (i.e.: 'g status' = 'git status') and a processor
+# favs()
+favs is a Bash function - g is a functional alias for git (i.e.: 'g status' = 'git status') and a processor
 with option switches for shortcuts of my most commonly used git commands.
 
 ## Use
