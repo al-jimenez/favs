@@ -36,13 +36,11 @@ favs() {
       ${FUNCNAME[0]} -a 'c=clear;  Clears the screen' 3
         '♥︎ ♥︎ ♥︎ ALIAS:    c=clear;  Clears the screen'\n
       ${FUNCNAME[0]} -f 'notes | .n add a date stamped note to .notes file.' 2
-        '  ♥︎ ♥︎ FUNCTION: notes | .n add a date stamped note to .notes file.'\n
+        '  ♥︎ ♥︎ FUNCTION: notes | .n add a date stamped note to .notes file.'
       ${FUNCNAME[0]} -s 'cheatsheets.sh - load specific cheatsheets' 1
-        '    ♥︎ SCRIPT:   cheatsheets.sh - load specific cheatsheets based
-                         on language'\n
-      ${FUNCNAME[0]} -s 'cheatsheets.sh - load specific cheatsheets'
-        '      SCRIPT:   cheatsheets.sh - load specific cheatsheets based
-                         on language'\n
+        '    ♥︎ SCRIPT:   cheatsheets.sh - load specific cheatsheets
+      ${FUNCNAME[0]} -f 'search.files   - search dot files'
+        '     FUNCTION:  search.files   - search dot files'
     "
     return;
     }
